@@ -45,3 +45,12 @@ mağaza kimliğinden farklıdır; yerel uygulamada mağaza kimliğini kullanın:
 ```sh
 eyazisma-imza --install-browser-host --chrome-extension-id pgengianfoeihehebpjilcckgpadgohk
 ```
+
+28 Ekim 2026: 0.1.2 paketi Chrome mağazasına yüklendi. Açıklama, Türkçe dil,
+Araçlar kategorisi, simge, ekran görüntüsü, izin/veri kullanım beyanları ve
+gizlilik URL'si kaydedildi. Yayıncı adı BahriCanli. İletişim e-postası seçimi ve
+doğrulaması tamamlanmadan incelemeye gönderilemiyor.
+
+Yerel imza bağlantısı dışında veri toplanmaz; Chrome beyanında yerelde işlenen
+geçici kimlik doğrulama bağlantısı, ilgili portal sayfa yolu ve bağlantı içeriği
+şeffaf biçimde işaretlendi. PIN/özel anahtar/PDF eklentiden geçmez.
