@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "e-Yazışma İmza",
+  "version": "0.1.0",
+  "description": "Dernek portalındaki elektronik imza işlemini yerel kart uygulamasına bağlar.",
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://portal.lkd.org.tr/admin/correspondence/*",
+        "https://portal.pkd.org.tr/admin/correspondence/*"
+      ],
+      "js": [
+        "common.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn+UWmJOnib+Ow9KWC0ZXqWFvHLXyoDgUyRNRdI0SZzggsdEeSjgDUkCqBPZtKh/YAVq2swYPRSWPj4Wyt3cqjDdznvtpc1Wc7F/Xwml217xxLQgEgFv4q5DibCGlL/BKKoyZw57hXn+9I6DCntSbsgDiArXNwL8HJR3MFW3N9aXs3Xib6oXKJB1za5J+GxuWXUhA7hzVniLFYCLuiwM8mUjaSBASyxOeefkj0qrEyJVFXMAzASsyaNwY0d5wntNJtssid3V253R+uA4TIixPMoZj4QfpU/tvcAghtmdBkf+54SmE4tafzd1cayw+6dGeTYAKySJzpwTlmKFYdxE5gwIDAQAB",
+  "background": {
+    "service_worker": "worker.js"
+  }
+}
