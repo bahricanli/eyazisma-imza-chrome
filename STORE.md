@@ -31,7 +31,7 @@ kullanıcı/publisher ile iletişime geçilmelidir. Gerçek PIN veya kişisel he
 mağaza metnine eklenmemelidir.
 
 ZIP: npm run build. Gizlilik: PRIVACY.md. Kaynaklar minify edilmez.
-Yayıncı hesabı ve mağaza ekran görüntüleri yayın sırasında tamamlanmalıdır.
+Yayıncı hesabı ve mağaza ekran görüntüleri tamamlandı.
 
 Gizlilik sayfası: https://bahricanli.github.io/eyazisma-imza-chrome/
 Destek: https://github.com/bahricanli/eyazisma-imza-chrome/issues
@@ -48,9 +48,10 @@ eyazisma-imza --install-browser-host --chrome-extension-id pgengianfoeihehebpjil
 
 28 Ekim 2026: 0.1.2 paketi Chrome mağazasına yüklendi. Açıklama, Türkçe dil,
 Araçlar kategorisi, simge, ekran görüntüsü, izin/veri kullanım beyanları ve
-gizlilik URL'si kaydedildi. Yayıncı adı BahriCanli. İletişim e-postası seçimi ve
-doğrulaması tamamlanmadan incelemeye gönderilemiyor.
+gizlilik URL'si kaydedildi. Yayıncı adı BahriCanli. Yayıncı iletişim e-postası doğrulandı; 0.1.2 sürümü incelemeye gönderildi.
 
 Yerel imza bağlantısı dışında veri toplanmaz; Chrome beyanında yerelde işlenen
 geçici kimlik doğrulama bağlantısı, ilgili portal sayfa yolu ve bağlantı içeriği
 şeffaf biçimde işaretlendi. PIN/özel anahtar/PDF eklentiden geçmez.
+
+Son durum: 28 Ekim 2026 — İncelenmeyi bekliyor. Onaydan sonra otomatik yayın seçildi.
