@@ -35,3 +35,13 @@ Yayıncı hesabı ve mağaza ekran görüntüleri yayın sırasında tamamlanmal
 
 Gizlilik sayfası: https://bahricanli.github.io/eyazisma-imza-chrome/
 Destek: https://github.com/bahricanli/eyazisma-imza-chrome/issues
+
+## Mağaza başvurusu
+
+Chrome mağaza kimliği: `pgengianfoeihehebpjilcckgpadgohk`.
+Mağaza paketinden geliştirmeye özel `key` alanı çıkarılır. Geliştirme kimliği
+mağaza kimliğinden farklıdır; yerel uygulamada mağaza kimliğini kullanın:
+
+```sh
+eyazisma-imza --install-browser-host --chrome-extension-id pgengianfoeihehebpjilcckgpadgohk
+```
