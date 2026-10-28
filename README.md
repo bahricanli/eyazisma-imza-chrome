@@ -1,6 +1,6 @@
 # e-Yazışma İmza — Chrome
 
-Bahricanlı tarafından geliştirilen Chrome eklentisi. LKD/PKD portalındaki imza
+BahriCanli tarafından geliştirilen Chrome eklentisi. LKD/PKD portalındaki imza
 isteğini bilgisayarınızdaki yerel imza uygulamasına bağlar. İmza ekranı yerel
 uygulamada açılır; PIN eklentiye aktarılmaz.
 
